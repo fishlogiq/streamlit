@@ -27,7 +27,8 @@ for message in st.session_state.messages:
 # Function to call the webhook
 def call_llm_webhook(user_input):
     headers = {
-        "Authorization": f"Bearer {BEARER_TOKEN}",
+        #"Authorization": f"Bearer {BEARER_TOKEN}",
+        "Authorization": "{BEARER_TOKEN}",
         "Content-Type": "application/json"
     }
     
