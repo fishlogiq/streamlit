@@ -5,8 +5,8 @@ import json
 import time
 
 # Configuration
-WEBHOOK_URL = "https://your-n8n-instance.com/webhook/path-to-your-workflow"
-BEARER_TOKEN = "your-hard-coded-token"  # Replace with your actual token
+WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook/dbchat"
+BEARER_TOKEN = "Bearer FISH3055551212"  # Replace with your actual token
 
 # App title
 st.title("Chat with AI")
