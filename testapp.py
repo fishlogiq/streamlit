@@ -5,7 +5,7 @@ import json
 import time
 
 # Configuration
-WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook-test/dbchat"
+WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook/dbchat"
 BEARER_TOKEN = "Bearer FISH3055551212"  # Replace with your actual token
 
 # App title
