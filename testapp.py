@@ -5,7 +5,7 @@ import json
 import time
 
 # Configuration
-WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook/dbchat"
+WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook-test/dbchat"
 BEARER_TOKEN = "FISH3055551212"  # Replace with your actual token
 
 # App title
@@ -27,8 +27,7 @@ for message in st.session_state.messages:
 # Function to call the webhook
 def call_llm_webhook(user_input):
     headers = {
-        #"Authorization": f"Bearer {BEARER_TOKEN}",
-        "Authorization": "{BEARER_TOKEN}",
+        "Authorization": f"Bearer {BEARER_TOKEN}",
         "Content-Type": "application/json"
     }
     
