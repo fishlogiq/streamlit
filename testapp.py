@@ -6,7 +6,7 @@ import time
 
 # Configuration
 WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook/dbchat"
-BEARER_TOKEN = "Bearer FISH3055551212"  # Replace with your actual token
+BEARER_TOKEN = "FISH3055551212"  # Replace with your actual token
 
 # App title
 st.title("Chat with AI")
