@@ -9,7 +9,7 @@ WEBHOOK_URL = "https://logiqfish.app.n8n.cloud/webhook/deepseek" #"https://logiq
 BEARER_TOKEN = "FISH3055551212"  # Replace with your actual token
 
 # App title
-st.title("Chat with AI")
+st.title("Chat with Sunglasses Database")
 
 # Initialize session state for chat history and session ID
 if "messages" not in st.session_state:
